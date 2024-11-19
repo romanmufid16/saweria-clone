@@ -1,8 +1,12 @@
+import { useEffect } from "react"
 import Footer from "./components/Footer"
 import Link from "./components/Link"
 import RunningText from "./components/RunningText"
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Connecting Communities, Empowering Streamers | Saweria"
+  }, [])
   return (
     <div className="min-h-screen font-ibm antialiased">
       {/* Head */}
@@ -22,7 +26,7 @@ const Home = () => {
         <div className="space-x-5 mb-10">
           {/* <Link text="Login" href="#" bgColor="#faae2b" /> */}
           <Link text="Login" href="/login" bgColor="#8BD3DD" />
-          <Link text="Register" href="#" bgColor="#faae2b" />
+          <Link text="Register" href="/register" bgColor="#faae2b" />
         </div>
       </div>
       <div className="flex flex-col justify-center items-center p-4 max-w-2xl mx-auto">
@@ -102,8 +106,8 @@ const Home = () => {
         </div>
 
         <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-5 mb-10">
-          <Link text="Tutorial" href="#" bgColor="#faae2b" className="w-full text-center" />
-          <Link text="Terms and conditions" href="#" bgColor="#8BD3DD" className="w-full text-center" />
+          <Link text="Tutorial" href="/tutorial" bgColor="#faae2b" className="w-full text-center" />
+          <Link text="Terms and conditions" href="/terms" bgColor="#8BD3DD" className="w-full text-center" />
         </div>
 
         <Footer />
