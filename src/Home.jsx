@@ -24,7 +24,6 @@ const Home = () => {
           <p className="text-2xl sm:text-3xl font-semibold">Connecting Communities, Empowering Streamers</p>
         </div>
         <div className="space-x-5 mb-10">
-          {/* <Link text="Login" href="#" bgColor="#faae2b" /> */}
           <Link text="Login" href="/login" bgColor="#8BD3DD" />
           <Link text="Register" href="/register" bgColor="#faae2b" />
         </div>
@@ -76,7 +75,7 @@ const Home = () => {
             <img src="https://saweria.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcapy_happy.603c7293.svg&w=384&q=75" alt="sawer" className="object-center" />
           </div>
           <p className="font-comfortaa text-2xl mb-2">ready to join saweria?</p>
-          <Link text="Register" href="#" bgColor="#faae2b" />
+          <Link text="Register" href="/register" bgColor="#faae2b" />
         </div>
 
         <div className="flex flex-col items-end justify-center w-full mb-2">
