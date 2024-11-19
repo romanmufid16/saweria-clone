@@ -7,8 +7,8 @@ const Home = () => {
     <div className="min-h-screen font-ibm antialiased">
       {/* Head */}
       <RunningText />
-      <div className="flex flex-col justify-center items-center p-4">
-        <div className="w-64 overflow-hidden relative">
+      <div className="flex flex-col justify-center items-center p-4 max-w-2xl mx-auto">
+        <div className="w-64 sm:w-80 overflow-hidden relative">
           <img
             src="https://saweria.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhomepage_characters.a1cf6cc4.svg&w=3840&q=75"
             alt="Saweria"
@@ -17,11 +17,11 @@ const Home = () => {
         </div>
         <div className="font-comfortaa text-center mb-5">
           <p className="text-5xl text-[#333333] font-thin mb-10">saweria.co</p>
-          <p className="text-2xl font-semibold">Connecting Communities, Empowering Streamers</p>
+          <p className="text-2xl sm:text-3xl font-semibold">Connecting Communities, Empowering Streamers</p>
         </div>
         <div className="space-x-5 mb-10">
           {/* <Link text="Login" href="#" bgColor="#faae2b" /> */}
-          <Link text="Login" href="#" bgColor="#8BD3DD" />
+          <Link text="Login" href="/login" bgColor="#8BD3DD" />
           <Link text="Register" href="#" bgColor="#faae2b" />
         </div>
       </div>
@@ -93,7 +93,7 @@ const Home = () => {
             <div className="w-1/4">
               <img src="https://saweria.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchicken_sad.23bb618d.svg&w=256&q=75" alt="chicken" className="object-cover" />
             </div>
-            <div className="w-full text-center font-comfortaa text-4xl space-y-3">
+            <div className="w-full text-center font-comfortaa text-2xl sm:text-4xl space-y-3">
               <p>confused?</p>
               <p>have questions?</p>
               <p>please check our faq</p>
@@ -101,7 +101,7 @@ const Home = () => {
           </a>
         </div>
 
-        <div className="w-full flex justify-center items-center gap-5 mb-10">
+        <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-5 mb-10">
           <Link text="Tutorial" href="#" bgColor="#faae2b" className="w-full text-center" />
           <Link text="Terms and conditions" href="#" bgColor="#8BD3DD" className="w-full text-center" />
         </div>
