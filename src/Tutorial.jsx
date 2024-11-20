@@ -1,12 +1,9 @@
-import { useEffect } from "react";
 import Card from "./components/Card"
 import Footer from "./components/Footer"
 import Video from "./components/Video"
 
 const Tutorial = () => {
-  useEffect(() => {
-    document.title = "Tutorial | Saweria"
-  }, []);
+  document.title = "Tutorial | Saweria"
   return (
     <div className="min-h-screen font-comfortaa antialiased">
       <div className="max-w-3xl mx-auto flex flex-col justify-center items-center px-5 py-2">

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Card from "./components/Card"
 import ImageTitle from "./components/ImageTitle"
 import InputForm from "./components/InputForm"
@@ -14,9 +14,7 @@ const Register = () => {
   const [checked3, setChecked3] = useState(false);
   const [checked4, setChecked4] = useState(false);
 
-  useEffect(() => {
-    document.title = "Register | Saweria"
-  })
+  document.title = "Register | Saweria";
   return (
     <div className="min-h-screen font-ibm antialiased">
       <RunningText />
@@ -72,12 +70,12 @@ const Register = () => {
               Violating the terms and conditions may result in your account being unilaterally deactivated (banned) by saweria.
             </p>
 
-            <Button text="Register" className="w-full" bgColor="[#8BD3DD]"/>
+            <Button text="Register" className="w-full" bgColor="[#8BD3DD]" />
 
           </form>
 
         </Card>
-        
+
         <Footer />
 
       </div>

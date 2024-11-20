@@ -1,12 +1,9 @@
-import { useEffect } from "react"
 import Footer from "./components/Footer"
 import Link from "./components/Link"
 import RunningText from "./components/RunningText"
 
 const Home = () => {
-  useEffect(() => {
-    document.title = "Connecting Communities, Empowering Streamers | Saweria"
-  }, [])
+  document.title = "Connecting Communities, Empowering Streamers | Saweria"
   return (
     <div className="min-h-screen font-ibm antialiased">
       {/* Head */}

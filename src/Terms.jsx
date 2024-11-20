@@ -1,12 +1,9 @@
-import { useEffect } from "react"
-import Card from "./components/Card"
-import Footer from "./components/Footer"
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 import RunningText from "./components/RunningText";
 
 const Terms = () => {
-  useEffect(() => {
-    document.title = "Terms and Conditions | Saweria"
-  }, []);
+  document.title = "Terms and Conditions | Saweria"
 
   return (
     <div className="min-h-screen font-comfortaa antialiased">

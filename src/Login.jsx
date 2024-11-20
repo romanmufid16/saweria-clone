@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import Button from "./components/Button"
 import Card from "./components/Card"
 import Footer from "./components/Footer"
@@ -8,9 +7,7 @@ import LabelForm from "./components/LabelForm"
 import RunningText from "./components/RunningText"
 
 const Login = () => {
-  useEffect(() => {
-    document.title = "Login | Saweria"
-  }, []);
+  document.title = "Login | Saweria";
   return (
     <div className="min-h-screen font-ibm antialiased">
       <RunningText />
