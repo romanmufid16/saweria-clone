@@ -4,12 +4,12 @@ import { MdOutlineEmail } from "react-icons/md"
 const Footer = () => {
   return (
     <footer className="w-full flex justify-between items-center text-sm sm:text-xl mb-5 text-slate-900">
-      <div className="space-y-5">
+      <div className="space-y-5 w-1/2">
         <p>Made with 💙 from SUB</p>
         <p>PT Harta Tahta Sukaria</p>
       </div>
 
-      <div className="flex flex-col justify-end items-end gap-2">
+      <div className="flex flex-col justify-end items-end gap-2 w-1/2">
         <a href="#" className="underline hover:no-underline">Terms and Conditions</a>
         <a href="#" className="underline hover:no-underline">FAQ</a>
         <a href="#" className="underline hover:no-underline">Changelog</a>
