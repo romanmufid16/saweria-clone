@@ -27,12 +27,12 @@ const Home = () => {
       </div>
       <div className="flex flex-col justify-center items-center p-4 max-w-2xl mx-auto">
 
-        <div className="border border-black bg-[#f2f7f5] p-4 rounded-lg [box-shadow:10px_10px_0_#222222] mb-10 w-full">
+        <div className="border border-black bg-[#f2f7f5] p-1 sm:p-4 rounded-lg [box-shadow:10px_10px_0_#222222] mb-10 w-full">
           <p className="text-sm mb-5">Saweria helps you to receive financial support from your fans with these payment methods:</p>
           <div className="px-10 grid grid-cols-3 mb-5">
             <div>
               <p><span className="text-xs">ID</span> Indonesia</p>
-              <ul className="list-disc uppercase text-lg">
+              <ul className="list-disc uppercase text-md sm:text-lg">
                 <li>gopay</li>
                 <li>ovo</li>
                 <li>dana</li>
@@ -42,12 +42,11 @@ const Home = () => {
             </div>
             <div>
               <p><span className="text-xs">PH</span> Philipines</p>
-              <ul className="list-disc uppercase text-lg">
-                <li>gopay</li>
-                <li>ovo</li>
-                <li>dana</li>
-                <li>linkaja</li>
-                <li>qris</li>
+              <ul className="list-disc uppercase text-md sm:text-lg">
+                <li>maya</li>
+                <li>gcash</li>
+                <li>shopeepay</li>
+                <li>grabpay</li>
               </ul>
             </div>
             <img src="https://saweria.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchicken_money.a24d8223.svg&w=750&q=75" alt="chicken" className="size-3/4" />
